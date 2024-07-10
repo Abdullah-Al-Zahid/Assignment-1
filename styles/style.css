@@ -6,6 +6,14 @@ body { font-family: "Azeret Mono", monospace;}
 
 
 
+/* full-body */
+
+body{
+    margin: o auto;
+    padding: o;
+}
+
+
 /* shared-item */
 /* shared-item */
 .margin-top{
@@ -204,4 +212,82 @@ body { font-family: "Azeret Mono", monospace;}
 .three{
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+}
+
+/* i need support section */
+/* i need support section */
+.support-sec{
+    width: 80%;
+    min-height: 513px;
+    margin: 0 auto;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    border-radius: 16px;
+}
+.support-box{
+    text-align: center;
+    align-items: center;
+    padding: 100px;
+}
+.support-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+.support-des{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+
+}
+.feedback-btn{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    height: 57px;
+    width: 548px;
+}
+.sub-btn{
+    width: 120px;
+    height: 57px;
+    margin: 0px 16px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+}
+form{
+    margin-top: 80px;
+}
+
+
+
+/* footer section design  */
+footer{
+    margin-top: 80px;
+    border: 1px solid none; 
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+footer > section {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+}
+
+
+.footer-title{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
 }
