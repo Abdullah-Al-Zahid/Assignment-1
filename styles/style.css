@@ -180,6 +180,7 @@ body{
 .skill-section{
     margin: 150px;
     border: 0px solid white;
+    align-items: center;
 }
 .skill{
     padding: 40px 40px 40px 40px;
@@ -188,6 +189,7 @@ body{
 .skill-flex{
     display: flex;
     gap: 24px;
+    align-items: center;
 }
 
 .skill-btn{
@@ -220,12 +222,16 @@ body{
     width: 80%;
     min-height: 513px;
     margin: 0 auto;
+    border-radius: 16px;
     background-image: url('../assets/handshake.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
     border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: overlay;
+    background-color: rgb(68, 65, 65);
 }
 .support-box{
     text-align: center;
