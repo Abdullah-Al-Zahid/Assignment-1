@@ -8,11 +8,15 @@ body { font-family: "Azeret Mono", monospace;}
 
 /* shared-item */
 /* shared-item */
+.margin-top{
+    margin-top: 100px;
+}
 .text-centre{
     text-align: center;
     align-items: center;
-    padding: 80px 97px;
-    margin
+    padding: 80px 90px;
+    padding-top: 30px;
+    line-height: 16px;
 }
 
 
@@ -43,7 +47,6 @@ body { font-family: "Azeret Mono", monospace;}
 
 .common-learn-more{
     padding: 12px 20px;
-    color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 500;
     line-height: 23px;
@@ -52,6 +55,10 @@ body { font-family: "Azeret Mono", monospace;}
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+}
+.button-text-decoretin{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
 }
 
 /* banner section design */
@@ -152,9 +159,49 @@ body { font-family: "Azeret Mono", monospace;}
     border: 477px;
 }
 
+
+
 /* video part  */
 /* video part */
 .video-part{
-    
+    text-align: center;
+}
 
+/* my current target  */
+
+.skill-section{
+    margin: 150px;
+    border: 0px solid white;
+}
+.skill{
+    padding: 40px 40px 40px 40px;
+}
+
+.skill-flex{
+    display: flex;
+    gap: 24px;
+}
+
+.skill-btn{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+/* skill-box-color */
+/* skill-box-color */
+
+
+.one{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.two{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.three{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
 }
